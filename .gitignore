@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Claude Code local session state
+.claude/
+
+# Editor / temp files
+*.swp
+*~
+*.bak
+
+# Secrets — never commit these
+*.pem
+*.key
+*_rsa
+*_ed25519
+.env
